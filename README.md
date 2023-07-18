@@ -6,9 +6,6 @@ This is the back end for an e-commerce site, which provides a functional Express
 
 - [Getting Started](#getting-started)
 - [Environment Variables](#environment-variables)
-- [Database Setup](#database-setup)
-- [API Routes](#api-routes)
-- [Testing](#testing)
 - [Walkthrough Video](#walkthrough-video)
 - [Contact](#contact) 
 
