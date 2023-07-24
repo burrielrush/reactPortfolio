@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background: #7395AE;
+    background: rgb(209, 209, 189);
   }
   
   .links {
@@ -14,7 +14,7 @@
   }
   
   .navbar a {
-    color: rgb(209, 209, 189);
+    color: #7395AE;
     font: bold;
     text-decoration: none;
     margin: 20px;
