@@ -1,19 +1,27 @@
-import React from 'react'
+import React from 'react';
 import ProjectItem from '../components/ProjectItem';
 import HoriseonHW from "../assets/HoriseonHW.png";
 import WritersCorner from "../assets/WritersCorner.png";
+import ReadMEGenerator from "../assets/ReadMEGenerator.png";
 import "../styles/Projects.css";
+
 function Projects() {
   return (
     <div className="projects">
-      <h1>Projects</h1>
+      <h1></h1>
       <div className="projectList">
-        <ProjectItem name ="Horiseon Refactor HW" image={HoriseonHW}/>
-        <ProjectItem name="Writers Corner" image={WritersCorner}/>
+        <a href="https://github.com/burrielrush/HoriseonRefactor" target="_blank" rel="noopener noreferrer">
+          <ProjectItem name="Horiseon Refactor HW" image={HoriseonHW} />
+        </a>
+        <a href="https://github.com/BrockHanni/Writers-Corner" target="_blank" rel="noopener noreferrer">
+          <ProjectItem name="Writers Corner" image={WritersCorner} />
+        </a>
+        <a href="https://github.com/burrielrush/READMEgenerator" target="_blank" rel="noopener noreferrer">
+          <ProjectItem name="Horiseon Refactor HW" image={ReadMEGenerator} />
+        </a>
       </div>
-
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

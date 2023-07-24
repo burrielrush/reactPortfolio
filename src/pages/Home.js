@@ -8,9 +8,9 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hello, my name Rush Burriel </h2>
+        <h2> Hello, my name is Rush Burriel </h2>
         <div className="prompt"> 
-          <p>A full stack web developer with a passion to make things</p>
+          <p>A full stack web developer with a passion to make things..</p>
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/rush-burriel-26a448263/" target="_blank" rel="noopener noreferrer">
               <LinkedIn />
@@ -28,7 +28,7 @@ function Home() {
       <h1>About me</h1>
       <p>
         <strong>About Me</strong><br />
-        Hello there! I'm [Your Name], a passionate and creative web developer with a love for crafting engaging and user-friendly digital experiences. As a lifelong learner and problem solver, I find immense joy in the ever-evolving world of web development.<br /><br />
+        Hello there! I'm Rush Burriel, a passionate and creative web developer with a love for crafting engaging and user-friendly digital experiences. As a lifelong learner and problem solver, I find immense joy in the ever-evolving world of web development.<br /><br />
 
         <strong>Background and Expertise</strong><br />
         With a background in web development and coding, I have honed my skills and gained valuable experience in various aspects of the development process. Although I am new to the tech world, I am hungry for knowledge and growth.<br /><br />
