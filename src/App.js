@@ -1,17 +1,20 @@
-import React from "react";
-import Header from "./components/Header";
-import Section from "./components/Project";
-import Navigation from "./components/Navigation";
-import Project from "./components/Project";
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Experience from './pages/Experience';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div>
-      <Navigation />
-      <Header />
-      <Section />
-      <Project />
-      <Footer />
+    <div className="App"><Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element = {<Home />} />
+        <Route path="/projects" element = {<Projects />} />
+        <Route path="/experience" element = {<Experience />} />
+      </Routes>
+    </Router>
     </div>
   );
 }
