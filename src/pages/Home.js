@@ -33,7 +33,6 @@ function Home() {
       <div className="skill"> 
       <h1>About me</h1>
       <p>
-        // About me, formatted with bolded headers 
         <strong>About Me</strong><br />
         Hello there! I'm Rush Burriel, a passionate and creative web developer with a love for crafting engaging and user-friendly digital experiences. As a lifelong learner and problem solver, I find immense joy in the ever-evolving world of web development.<br /><br />
 
