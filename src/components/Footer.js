@@ -5,7 +5,7 @@ import LinkedIn from '@mui/icons-material/LinkedIn';
 import "../styles/Footer.css"
 
 
-
+// Footer function for links to be active to social media, github and linkedin
 function Footer() {
   return (
     <div className="footer">

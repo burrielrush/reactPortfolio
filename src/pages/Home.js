@@ -1,14 +1,20 @@
+// Importing necessary dependencies and styles
 import React from 'react';
 import Instagram from '@mui/icons-material/Instagram';
 import GitHub from '@mui/icons-material/GitHub';
 import LinkedIn from '@mui/icons-material/LinkedIn';
 import "../styles/Home.css";
 
+
+// Functional component for the Home section
 function Home() {
   return (
+    // Main container with className 'home'
     <div className="home">
       <div className="about">
-        <h2> Hello, my name is Rush Burriel </h2>
+        <div className= "scrolling-text-container"> 
+        <p className="scrolling-text">Hello, my name is Rush Burriel</p> 
+        </div>
         <div className="prompt"> 
           <p>A full stack web developer with a passion to make things..</p>
           <div className="social-icons">
@@ -27,6 +33,7 @@ function Home() {
       <div className="skill"> 
       <h1>About me</h1>
       <p>
+        // About me, formatted with bolded headers 
         <strong>About Me</strong><br />
         Hello there! I'm Rush Burriel, a passionate and creative web developer with a love for crafting engaging and user-friendly digital experiences. As a lifelong learner and problem solver, I find immense joy in the ever-evolving world of web development.<br /><br />
 
@@ -53,9 +60,8 @@ function Home() {
 
         Thank you for visiting my portfolio, and I look forward to the journey ahead!
       </p>
-      
-      </div>
     </div>
+  </div>
   )
 }
 

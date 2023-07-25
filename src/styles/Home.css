@@ -33,6 +33,29 @@ home {
     margin: 5px;
     color: rgb(209, 209, 189);
   }
+  /* Set up the container to hide any overflow */
+.scrolling-text-container {
+  font-size: 80px;
+  color: rgb(209, 209, 189);
+  overflow: hidden;
+}
+
+/* Define the animation behavior using @keyframes */
+@keyframes scroll {
+  from {
+    transform: translateX(100%); /* Start from right edge of the container */
+  }
+  to {
+    transform: translateX(-100%); /* End at the left edge of the container */
+  }
+}
+
+/* Apply the animation to the scrolling text */
+.scrolling-text {
+  animation: scroll 10s linear infinite; /* Change '10s' to adjust the speed */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
   
   .skill {
     margin: 150px;

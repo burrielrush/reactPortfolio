@@ -1,3 +1,4 @@
+// Importing nessecary functions from various files
 import React from 'react';
 import ProjectItem from '../components/ProjectItem';
 import HoriseonHW from "../assets/HoriseonHW.png";
@@ -5,6 +6,7 @@ import WritersCorner from "../assets/WritersCorner.png";
 import ReadMEGenerator from "../assets/ReadMEGenerator.png";
 import "../styles/Projects.css";
 
+// Function displaying projects for project tab. Links to gihub repos
 function Projects() {
   return (
     <div className="projects">

@@ -1,3 +1,4 @@
+// Importing VerticalTimeline components to be used in portfolio 
 import React from 'react'
 import {
   VerticalTimeline, 
@@ -7,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import "../styles/Experience.css";
 
 
-
+// Timeline React function, displaying past school and work experience, coolest aspect of my portfolio so far
 function Experience() {
   return (
     <div className="experience">

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import "../styles/ContactForm.css";
 
+
+// Function creating form for potential employers to fill out for contact
 function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
@@ -18,9 +20,7 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here, you can send the form data to your desired endpoint or perform any other action with the data.
     console.log(formData);
-    // Reset the form after submission
     setFormData({
       name: '',
       email: '',
