@@ -4,6 +4,7 @@ import ProjectItem from '../components/ProjectItem';
 import HoriseonHW from "../assets/HoriseonHW.png";
 import WritersCorner from "../assets/WritersCorner.png";
 import ReadMEGenerator from "../assets/ReadMEGenerator.png";
+import GoldenBuddies from "../assets/GoldenBuddies.png"; 
 import "../styles/Projects.css";
 
 // Function displaying projects for project tab. Links to gihub repos
@@ -20,6 +21,9 @@ function Projects() {
         </a>
         <a href="https://github.com/burrielrush/READMEgenerator" target="_blank" rel="noopener noreferrer">
           <ProjectItem name="Horiseon Refactor HW" image={ReadMEGenerator} />
+        </a>
+        <a href="https://github.com/burrielrush/GoldenBuddies.git" target="_blank" rel="noopener noreferrer">
+        <ProjectItem name="Golden Buddies MERN project" image={GoldenBuddies} />
         </a>
       </div>
     </div>
